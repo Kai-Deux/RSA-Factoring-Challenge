@@ -1,32 +1,22 @@
-RSA Factoring Challenge
+# RSA-Factoring-Challenge
 
-0.Factorize all the things!
+# INTRODUCTION
+RSA is one of the oldest public-key cryptosystem that is used for secure data transmission. The acronym RSA comes from the surnames of Ron Rivest, Adi Shamir and Leonard Adleman who publicly described the algorithm in 1976.
 
-0. Factorize all the things!#advanced
-Factorize as many numbers as possible into a product of two smaller numbers.
+# The Task
+An unsecured network was searched and the numbers used to encrypt very important documents were found. It seems that those numbers are not always generated using large enough prime numbers. The mission is to factorize these numbers as fast as possible before the target fixes this bug on their server - so that the encrypted documents can be decoded.
 
-Usage:factors <file>
-where<file>is a file containing natural numbers to factor.
-One number per line
-You can assume that all lines will be valid natural numbers greater than 1
-You can assume that there will be no empy line, and no space before and after the valid number
-The file will always end with a new line
-Output format:n=p*q
+# 0-Factorize all the things!
+Here, as many number as possible will be factorized into a product of two smaller numbers.
+
+Usage: factors <file>
+where <file> is file containing natural numbers to factor.
+One number per line.
+Assume that all lines will be valid natural numbers greater than 1
+Assume that there will be no empty linen, no space before and after the valid number.
+File will always end in a new line
+Output format: n=p*q
 one factorization per line
-pandqdon't have to be prime numbers
-See example
-You can work on the numbers of the file in the order of your choice
-Your program should run without any dependency: You will not be able to install anything on the machine we will run your program on
-Time limit: Your program will be killed after 5 seconds if it hasn't finish
-Push all your scripts, source code, etc... to your repository
-we will only run your executablefactors
-1. RSA Factoring Challenge#advanced
-RSA Laboratories states that: for each RSA numbern, there exist prime numberspandqsuch that
-
-n=p×q. The problem is to find these two primes, given onlyn.
-
-This task is the same as task 0, except:
-
-pandqare always prime numbers
-There is only one number in the files
-How far can you go in less than 5 seconds?
+p and q don't have to be prime numbers.
+Program should run without any dependancy
+Time limit: program will be killed after 5 seconds if it hasn't finished.
